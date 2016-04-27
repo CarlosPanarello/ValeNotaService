@@ -2,7 +2,6 @@ var _und = require("../node_modules/underscore/underscore-min.js");
 
 var db = require('../db_config.js');
 
-
 function limpaPassword(resp){
 	
 	if(Array.isArray(resp)){
